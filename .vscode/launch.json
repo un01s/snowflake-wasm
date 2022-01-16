@@ -1,0 +1,44 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/Users/wb/io/code/m5-atom-wasms/.pio/build/atom/firmware.elf",
+            "projectEnvName": "atom",
+            "toolchainBinDir": "/Users/wb/.platformio/packages/toolchain-xtensa32@2.50200.97/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/Users/wb/io/code/m5-atom-wasms/.pio/build/atom/firmware.elf",
+            "projectEnvName": "atom",
+            "toolchainBinDir": "/Users/wb/.platformio/packages/toolchain-xtensa32@2.50200.97/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/Users/wb/io/code/m5-atom-wasms/.pio/build/atom/firmware.elf",
+            "projectEnvName": "atom",
+            "toolchainBinDir": "/Users/wb/.platformio/packages/toolchain-xtensa32@2.50200.97/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "loadMode": "manual"
+        }
+    ]
+}
