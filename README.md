@@ -1,6 +1,8 @@
 ## NOTES
 
-Check additional notes from NOTES.md.
+Check additional notes from [NOTES.md](https://github.com/un01s/snowflake-wasm/blob/main/NOTES.md).
+
+![Twitter clips](https://twitter.com/un01s/status/1482841669493936129?cxt=HHwWgsCqhYupjpQpAAAA)
 
 Wasms
 -----
