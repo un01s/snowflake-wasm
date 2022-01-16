@@ -1,3 +1,7 @@
+## NOTES
+
+Check additional notes from NOTES.md.
+
 Wasms
 -----
 
